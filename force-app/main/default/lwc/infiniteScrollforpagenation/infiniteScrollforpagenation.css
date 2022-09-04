@@ -1,0 +1,35 @@
+*{
+box-sizing: border-box;
+}
+
+.body{
+
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50000px;
+    margin: 0;
+   
+    
+}
+
+.Eachbox{
+background-color: blueviolet;
+display: flex;
+min-width: 100px;
+min-height:200px;
+margin: 2%;
+align-items: center;
+justify-content: center;
+visibility: hidden;
+/* transform: translateX(500%); */
+
+}
+
+.Eachbox.show{
+    /* transform: translateX(0); */
+    visibility:visible;
+}
