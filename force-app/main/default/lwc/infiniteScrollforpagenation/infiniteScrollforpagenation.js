@@ -32,10 +32,7 @@ factorofadding=1
 
     console.log('value of triggerbottom'+ triggerfrombottom)
     this.factorofadding=this.factorofadding+1;
-    // if(this.factorofadding%2===0)
-    // {
-this.addData()
-   // }
+     this.addData()
   
     this.boxes.forEach(eachbox => {
         
@@ -46,10 +43,6 @@ this.addData()
         
         {
               eachbox.classList.add("show")
-            //    if(this.factorofadding%2===0)
-            // {
-            //        this.addData()
-            //     }
         }
         else{
             eachbox.classList.remove("show")
@@ -63,7 +56,7 @@ this.addData()
  
    let obj={item:2}
     obj["item"]=a;
-  //  alert(JSON.stringify(obj))
+  
   console.log("+++++"+this.arr)
 
      this.arr.push(obj)
